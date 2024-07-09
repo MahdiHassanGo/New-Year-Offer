@@ -1,0 +1,80 @@
+/* CSS */
+.banner-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    background-image: url("images/Banner Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.banner-content p,
+.banner-content h1 {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.banner-content p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.Second-section-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px; /* Adjust the margin-top to create space below the banner */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; /* Changed from column to row to align content side by side */
+    align-items: center;
+    border: 2px solid red;
+    padding: 20px; 
+}
+
+.second-section-content h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.second-section-content p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.second-section-content h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.img-container {
+    max-width: 50%; /* Ensures image does not exceed 50% of the container */
+    height: auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
